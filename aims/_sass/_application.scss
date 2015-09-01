@@ -1,0 +1,33 @@
+.container {
+  min-width: 970px;
+}
+
+.widget {
+  margin-bottom: 24px;
+}
+
+li a {
+  font-weight: 500;
+}
+
+table th,
+table td {
+  vertical-align: middle !important;
+}
+
+table th {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.highlight {
+  background-color: #ffc;
+}
+
+.strong {
+  font-weight: 500;
+}

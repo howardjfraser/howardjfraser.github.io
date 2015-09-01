@@ -1,0 +1,8 @@
+# Site settings
+title: AIMS 3 Demo
+
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
