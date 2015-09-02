@@ -38,3 +38,103 @@ table th {
     padding-bottom: 16px;
   }
 }
+
+.yorkville {
+  font-family: yorkville, helvetica;
+}
+
+
+// Underline nav
+//
+// Extends `.nav` like other Bootstrap navs.
+
+.nav-bordered {
+  > li {
+    float: left;
+
+    // Links rendered as pills
+    > a {
+      display: inline-block;
+      padding: 10 0;
+      font-weight: 400;
+      color: #333;
+      border-bottom: 4px solid transparent;
+
+      &:hover,
+      &:focus {
+        color: #337ab7;
+        background-color: transparent;
+      }
+    }
+
+    + li {
+      margin-left: 30;
+    }
+
+    // Active state
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        font-weight: 600;
+        color: #337ab7;
+        border-bottom-color: #337ab7;
+      }
+    }
+  }
+
+  &.nav-justified {
+    > li + li {
+      margin-left: 0;
+    }
+    > li > a {
+      margin-bottom: 0;
+    }
+  }
+
+  &.nav-stacked {
+    > li {
+      float: none;
+      margin-left: 0;
+
+      + li {
+        margin-top: 0;
+      }
+
+      &.active > a {
+        &,
+        &:hover,
+        &:focus {
+          border-left-color: #337ab7
+        }
+      }
+    }
+
+    > li > a {
+      display: block;
+      padding: 10px 10px 10px 20px;
+      border-bottom: 0;
+      border-left: 4px solid transparent;
+
+      &:hover,
+      &:focus {
+        border-left: 4px solid;
+      }
+    }
+
+    .nav-header {
+      padding-left: (30px + 4px);
+    }
+
+    .nav-divider {
+      height: 1px;
+      margin: ((24 / 2) - 1) 0;
+      overflow: hidden;
+      background-color: rgba(255,255,255,.2);
+
+      margin-left: (20px + 4px);
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+  }
+}
