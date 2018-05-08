@@ -6,3 +6,5 @@ url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-slate
